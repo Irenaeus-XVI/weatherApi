@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body class="">
+
+
+    <nav class="navbar navbar-expand-lg p-5">
+        <div class="container px-5">
+            <div class="logo d-flex align-items-center  ">
+                <div class="logo-img m-2">
+                    <a href=""> <img src="images/logo@2x.png" alt="" class=" w-100">
+                </div>
+
+                <div class="info">
+                    <h1 class="fs-6 mb-0">Weather</h1>
+                    <span class="">tagline goes here</span>
+                </div>
+                </a>
+
+            </div>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-around w-50">
+                    <li class="nav-item">
+                        <a class="nav-link active px-4" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="#">photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="#">Contact</a>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="form-group p-5 position-relative">
+                    <input type="text" class="form-control bg-dark rounded-5 p-3 border-0 text-white "
+                        placeholder="Find Your Location..." id="userInput">
+                    <input class="form-control rounded-5   " id="find" type="submit" value="Find">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section id="forecastTable">
+
+        <div class="container w-75">
+            <div class="row g-5" id="forecastTableBody">
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+
+
+                    <div class="form-group p-5 position-relative">
+                        <input type="text" class="form-control bg-dark rounded-5 p-3 border-0 "
+                            placeholder="Enter your email to subscribe...">
+                        <input class="form-control rounded-5   " id="Subscribe" type="submit" value="Subscribe">
+                    </div>
+                    <p class="text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="icons">
+                        <div class="iconItem">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="iconItem"> <i class="fa-brands fa-twitter"></i></div>
+                        <div class="iconItem"><i class="fa-brands fa-google"></i></div>
+                        <div class="iconItem"> <i class="fa-brands fa-pinterest"></i></div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

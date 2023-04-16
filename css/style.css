@@ -1,0 +1,165 @@
+:root {
+    --mutedColor: #bfc1c8;
+    --navBackgroundColor: #1e202b;
+    --mainColor: #009ad8;
+    --today-header: rgba(0, 0, 0, 0.1);
+    --forCastTableColor: #323544;
+    --forCastMiddle: #262936;
+    --iconsBackGround: #1e202b;
+}
+
+nav {
+    background-color: var(--navBackgroundColor);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.logo-img {
+    width: 64px;
+    height: 38px;
+}
+
+nav span {
+    font-size: 0.7142857143rem;
+    color: var(--mutedColor);
+}
+
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+
+    color: var(--mainColor);
+}
+
+.nav-link {
+    color: white;
+    transition: all 0.5s;
+
+
+}
+
+.nav-link:hover {
+    color: var(--mainColor);
+    border: 2px solid var(--mainColor);
+    border-radius: 1.875rem;
+
+}
+
+.active {
+    border: 2px solid var(--mainColor);
+    border-radius: 1.875rem;
+
+
+
+}
+
+
+/* HOME */
+
+#home {
+    height: 50vh;
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-control::placeholder {
+    color: var(--mutedColor);
+
+}
+
+
+#find {
+
+    border-radius: 30%;
+    padding: 0.7rem 2.5rem;
+    position: absolute;
+    top: 35%;
+    right: 4%;
+    width: 8%;
+    background-color: var(--mainColor);
+    border: none;
+    color: white;
+}
+
+
+/* forecastTable */
+
+
+#forecastTable {
+    background-color: var(--forCastMiddle);
+
+}
+
+
+
+.today {
+    background-color: var(--forCastTableColor);
+
+}
+
+.today-header {
+    background-color: var(--today-header);
+}
+
+.num {
+    font-size: 3.75rem;
+}
+
+.tomorrow {
+    background-color: var(--forCastMiddle);
+
+}
+
+.forcast {
+    margin-top: -150px;
+}
+
+footer {
+    background-color: var(--forCastTableColor);
+}
+
+#Subscribe {
+    border-radius: 30%;
+    padding: 0.7rem 1.5rem;
+    position: absolute;
+    top: 35%;
+    right: 6%;
+    width: 14%;
+    background-color: var(--mainColor);
+    border: none;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    padding: 3.5rem;
+}
+
+.icons .iconItem {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    color: var(--mainColor);
+    border-radius: 50%;
+    padding: 1.5rem;
+    background-color: var(--iconsBackGround);
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    cursor: pointer;
+
+
+}
+
+.iconItem:hover {
+    background-color: var(--mainColor);
+    color: white;
+}
